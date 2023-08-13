@@ -2,8 +2,8 @@ namespace GameJun.Interfaces;
 
 public abstract class AbstractGame
 {
-    private AbstractCharacter? player1;
-    private AbstractCharacter? player2;
+    protected AbstractCharacter? player1;
+    protected AbstractCharacter? player2;
 
     // Выбор класса игроков (ввод с клавиатуры)
     public abstract void SelectPlayers();
