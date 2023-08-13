@@ -56,7 +56,12 @@ namespace GameJun.Classes
                 Console.WriteLine($"Step Complete result: \n{player1.Health} {player2.Health}");
             }
 
-            if(!player1.IsAlive())
+            if (!player1.IsAlive() && !player2.IsAlive())
+            {
+                Console.WriteLine("Player1 and Player2 are RIP!!!");
+            }
+
+            else if(!player1.IsAlive())
             {
                 Console.WriteLine("Player2 WIN!!!");
             }
