@@ -1,4 +1,5 @@
 ﻿using GameJun.Interfaces;
+using GameJun.Classes;
 
 namespace GameJun
 {
@@ -6,9 +7,9 @@ namespace GameJun
     {
         static void Main(string[] args)
         {
-            // AbstractGame game = new Game();
-            // game.SelectPlayers();
-            // game.Start();
+            AbstractGame game = new Game();
+            game.SelectPlayers();
+            game.Start();
         }
     }
 }
