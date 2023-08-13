@@ -1,10 +1,14 @@
-﻿namespace GameJun
+﻿using GameJun.Interfaces;
+
+namespace GameJun
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // AbstractGame game = new Game();
+            // game.SelectPlayers();
+            // game.Start();
         }
     }
 }
